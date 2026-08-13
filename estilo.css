@@ -6,3 +6,6 @@
     --cor-texto:#F5F5DC;
 
 }
+body{
+    background-color: var(--cor-fundo);
+}
