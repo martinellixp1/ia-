@@ -1,3 +1,12 @@
+const caixaprincipal = document.querySelector(".caixa-principal")
+const caixaperguntas = document.querySelector(".caixa-pergutas")
+const caixaalternativas = document.querySelector(".caixa-alternativas")
+const caixaresultados= document.querySelector(".caixa-resultados")
+const textoresultados = document.querySelector(".texto-resultados")
+
+
+
+
 const perguntas = [
     {
         enunciado: "Você acorda como um gato em uma casa completamente estranha, com cheiros desconhecidos e móveis diferentes. O que você faz primeiro?",
