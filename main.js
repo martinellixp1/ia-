@@ -79,7 +79,7 @@ let atual = 0
 let perguntaatual;
 let historiafinal = ""
 
-function mostrarperguntas(){
+function mostrarpergunta(){
     if (atual >= perguntas.length) {
         return
     }
@@ -88,4 +88,4 @@ function mostrarperguntas(){
     caixaperguntas .textcontent = perguntaatual
 }
 
-mostrarperguntas()
+mostrarpergunta()
