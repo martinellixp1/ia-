@@ -88,4 +88,4 @@ function mostrarperguntas(){
     caixaperguntas .textcontent = perguntaatual
 }
 
-mostrarpergunta()
+mostrarperguntas()
