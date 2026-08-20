@@ -85,7 +85,7 @@ function mostrarpergunta(){
     }
 
     perguntaatual = perguntas[atual]
-    caixaperguntas.textContent = perguntaatual
+    caixaperguntas.textContent = perguntaatual.enunciado
 }
 
 mostrarpergunta()
