@@ -79,13 +79,13 @@ let atual = 0
 let perguntaatual;
 let historiafinal = ""
 
-function mostrarpergunta(){
+function mostrarperguntas(){
     if (atual >= perguntas.length) {
         return
     }
 
     perguntaatual = perguntas[atual]
-    caixaperguntas .textcontent = perguntaatual
+    caixaperguntas .textContent = perguntaatual
 }
 
-mostrarpergunta()
+mostrarperguntas()
