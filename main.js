@@ -85,16 +85,32 @@ function mostrarpergunta(){
     }
 
     perguntaatual = perguntas[atual]
+
     caixaperguntas.textContent = perguntaatual.enunciado
+    caixaalternativas.textContent = "";
     mostraalternativas()
 }
 
 function mostraalternativas(){
     for (const alternativa os perguntaatual.alternativa){
         const  botaoalternativas = document.createElement("button")
+        botaoalternativas.textContent = alternativa.texto
+        botaoalternativas.addEventListener("click", ()=> respostaSelecionada(alternativa))
+        caixaalternativas.appendChild(botaoalternativas)
     }
         
-    }
 }
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = opcaoSelecionada.afirmacao + ""
+    historiafinal += afirmacoes + " "
+    atual++
+    mostrarpergunta()
+}
+function mostraresultado(){
+    caixaperguntas.textContent ="Em 2049..."
+    textoresultado.textContent =historiafinal
+    caixaalternativas.textContent ="";
+}
+
 
 mostrarpergunta()
