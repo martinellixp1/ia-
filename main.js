@@ -113,4 +113,4 @@ function mostraresultado(){
 }
 
 
-mostrarpergunta()
+mostrarPergunta()
