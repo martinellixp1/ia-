@@ -84,7 +84,6 @@ function mostrarPergunta(){
         mostraResultado()
         return
     }
-
     perguntaatual = perguntas[atual]
     caixaPerguntas.textContent = perguntaAtual.enunciado
     caixaAlternativas.textContent = "";
