@@ -13,11 +13,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Fica imóvel, observando tudo com cautela.",
-                afirmacao: "Você percebe que a calma ajuda a entender melhor o ambiente ao seu redor."
+                afirmacao: [
+                    "Você percebe que a calma ajuda a entender melhor o ambiente ao seu redor."
+                    "você é arisco e sai correndo pela casa"
+                ]
             },
             {
                 texto: "Começa a explorar cada canto farejando tudo.",
-                afirmacao: "Sua curiosidade felina te levou a descobrir muitos segredos da casa."
+                afirmacao: [
+                    "Sua curiosidade felina te levou a descobrir muitos segredos da casa."
+                    "sair correndo até achar uma estranha"
+                ]
             }
         ]
     },
@@ -26,11 +32,16 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Empurra a porta com a pata e entra devagar.",
-                afirmacao: "Sua coragem te recompensou com um delicioso pedaço de peixe."
+                afirmacao: [
+                    "Sua coragem te recompensou com um delicioso pedaço de peixe."
+                    "você começa a farmar aura fazendo six seven na frete da porta e com isso você mogga a porta e ela se abre"
+                ]
             },
             {
                 texto: "Fica miando perto da porta até que alguém apareça.",
-                afirmacao: "Descobriu que miar pode atrair atenção e carinho dos humanos."
+                afirmacao: [
+                    "Descobriu que miar pode atrair atenção e carinho dos humanos."
+                    "você entra na porta e vê um idoso na cadeira de rodas "
             }
         ]
     },
