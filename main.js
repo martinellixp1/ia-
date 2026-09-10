@@ -41,7 +41,8 @@ const perguntas = [
                 texto: "Fica miando perto da porta até que alguém apareça.",
                 afirmacao: [
                     "Descobriu que miar pode atrair atenção e carinho dos humanos."
-                    "você entra na porta e vê um idoso na cadeira de rodas "
+                    "você entra na porta e vê um idoso na cadeira de rodas ele olha pra vc e fica bravo e solta um cachorro em você"
+                ]
             }
         ]
     },
