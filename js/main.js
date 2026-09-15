@@ -51,7 +51,9 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Arrepia o pelo e fica em posição de ataque.",
-                afirmacao: "Você aprendeu que nem tudo que parece ameaçador é real."
+                afirmacao: [
+                    "Você aprendeu que nem tudo que parece ameaçador é real."
+                    "você esta assustado e fica arisco"
             },
             {
                 texto: "Tenta brincar com o gato do espelho.",
@@ -123,5 +125,10 @@ function mostraResultado(){
     caixaAlternativas.textContent ="";
 }
 
+fuction aleatorio(lista){
+    const posicao = Math.floor(math.random()*lista.length)
+    console.log(posicao)
+    return(lista[posicao])
+}
 
 mostrarPergunta()
