@@ -1,4 +1,4 @@
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "Você acorda como um gato em uma casa completamente estranha, com cheiros desconhecidos e móveis diferentes. O que você faz primeiro?",
         alternativas: [
