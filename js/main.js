@@ -54,6 +54,7 @@ const perguntas = [
                 afirmacao: [
                     "Você aprendeu que nem tudo que parece ameaçador é real.",
                     "você esta assustado e fica arisco",
+                ]
             },
             {
                 texto: "Tenta brincar com o gato do espelho.",
