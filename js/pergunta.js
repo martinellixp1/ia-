@@ -6,14 +6,14 @@ export const perguntas = [
                 texto: "Fica imóvel, observando tudo com cautela.",
                 afirmacao: [
                     "Você percebe que a calma ajuda a entender melhor o ambiente ao seu redor.",
-                    "você é arisco e sai correndo pela casa"
+                    "Você é arisco e sai correndo pela casa"
                 ]
             },
             {
                 texto: "Começa a explorar cada canto farejando tudo.",
                 afirmacao: [
                     "Sua curiosidade felina te levou a descobrir muitos segredos da casa.",
-                    "sair correndo até achar uma estranha"
+                    "Sair correndo até achar uma estranha"
                 ]
             }
         ]
@@ -25,14 +25,14 @@ export const perguntas = [
                 texto: "Empurra a porta com a pata e entra devagar.",
                 afirmacao: [
                     "Sua coragem te recompensou com um delicioso pedaço de peixe.",
-                    "você começa a farmar aura fazendo six seven na frete da porta e com isso você mogga a porta e ela se abre"
+                    "Você começa a farmar aura fazendo six seven na frete da porta e com isso você mogga a porta e ela se abre"
                 ]
             },
             {
                 texto: "Fica miando perto da porta até que alguém apareça.",
                 afirmacao: [
                     "Descobriu que miar pode atrair atenção e carinho dos humanos.",
-                    "você entra na porta e vê um idoso na cadeira de rodas ele olha pra vc e fica bravo e solta um cachorro em você"
+                    "Você entra na porta e vê um idoso na cadeira de rodas ele olha pra vc e fica bravo e solta um cachorro em você"
                 ]
             }
         ]
@@ -44,14 +44,14 @@ export const perguntas = [
                 texto: "Arrepia o pelo e fica em posição de ataque.",
                 afirmacao: [
                     "Você aprendeu que nem tudo que parece ameaçador é real.",
-                    "você esta assustado e fica arisco"
+                    "Você esta assustado e fica arisco"
                 ]
             },
             {
                 texto: "Tenta brincar com o gato do espelho.",
                 afirmacao: [
                     "Sua natureza brincalhona transformou o susto em diversão.",
-                    "você fica arisco e ataca"
+                    "Você fica arisco e ataca"
                 ]
             }
         ]
@@ -63,11 +63,15 @@ export const perguntas = [
                 texto: "Entra em cada uma delas para testar qual é mais confortável.",
                 afirmacao: [
                     "Você descobriu que caixas são os melhores esconderijos do mundo.",
-                    ""
+                    "Você tem medo das caixas"
+                ]
             },
             {
                 texto: "Ignora as caixas e continua procurando uma saída.",
-                afirmacao: "Sua determinação te fez encontrar uma janela aberta."
+                afirmacao: [
+                    "Sua determinação te fez encontrar uma janela aberta.",
+                    "Você achou uma porta aberta"
+                ]
             }
         ]
     },
@@ -76,11 +80,17 @@ export const perguntas = [
         alternativas: [
             {
                 texto: "Corre para a cozinha para ver o que está acontecendo.",
-                afirmacao: "Descobriu que o barulho era um humano abrindo um sachê de ração."
+                afirmacao: [
+                    "Descobriu que o barulho era um humano abrindo um sachê de ração.",
+                    "Você vê um humano com uma jarra de leite"
+                ]
             },
             {
                 texto: "Fica escondido observando de longe.",
-                afirmacao: "Aprendeu que observar antes de agir pode evitar sustos."
+                afirmacao: [
+                    "Aprendeu que observar antes de agir pode evitar sustos.",
+                    "Aprendeu a confiar nesse humano"
+                ]
             }
         ]
     },
