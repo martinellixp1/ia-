@@ -6,7 +6,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas")
 const caixaAlternativas = document.querySelector(".caixa-alternativas")
 const caixaResultado= document.querySelector(".caixa-resultados")
 const textoResultado = document.querySelector(".texto-resultado")
-const botaoiniciar = document.querySelector(".iniciar-btn")
+const botaoIniciar = document.querySelector(".iniciar-btn")
 
 
 
