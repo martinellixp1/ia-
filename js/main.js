@@ -39,7 +39,7 @@ function mostrarPergunta(){
     caixaPerguntas.textContent = perguntaAtual.enunciado
     caixaAlternativas.textContent = "";
     mostraAlternativas()
-    
+
 }
 
 function mostraAlternativas(){
@@ -62,5 +62,6 @@ function mostraResultado(){
     textoResultado.textContent = historiaFinal
     caixaAlternativas.textContent ="";
 }
+
 
 
